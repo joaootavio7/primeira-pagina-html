@@ -1,0 +1,27 @@
+img {
+width: 30px;
+height: 30px;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 75%;
+}
+table {
+    border-bottom: 1px solid;
+}
+th{
+    border-bottom: 1px solid;
+    background-color: goldenrod;
+    color: #FFF;
+}
+
+tr:hover {
+    background-color: #999999;
+    color: #FFF;
+}
+
+td:nth-child(n+3):nth-child(-n+11){
+    text-align: center;
+}
